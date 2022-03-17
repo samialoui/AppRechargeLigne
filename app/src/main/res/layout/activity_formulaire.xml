@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Formulaire">
+
+    <ImageView
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fotoprofile"></ImageView>
+    <TextView
+        android:id="@+id/textNomUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="300dp"
+        android:textStyle="bold"
+        android:text=""
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:id="@+id/textNumTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Saisir votre numéro de téléphone"
+        android:textSize="15sp"></TextView>
+    <EditText
+        android:id="@+id/editNumTel"
+        android:inputType="text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"></EditText>
+    <TextView
+        android:id="@+id/textNomLigne"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""></TextView>
+
+
+    <TextView
+        android:id="@+id/textCodeRech"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrer votre code de recharge"
+        android:textSize="15sp"></TextView>
+    <EditText
+        android:id="@+id/editCodeRech"
+        android:inputType="text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:id="@+id/textErrorCode"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""></TextView>
+
+    <TextView
+        android:id="@+id/textRechLigne"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Recharge votre ligne"
+        android:textSize="15sp"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editRechLigne"
+            android:inputType="text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"></EditText>
+
+
+        <Button
+            android:id="@+id/btnRechLigne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Appeler"></Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textConsSolde"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Pour consulter le solde de votre ligne"
+        android:textSize="15sp"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editConsSolde"
+            android:inputType="text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"></EditText>
+
+
+        <Button
+            android:id="@+id/btnConsSolde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Appeler"></Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
